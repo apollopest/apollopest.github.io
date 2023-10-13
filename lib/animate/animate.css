@@ -860,7 +860,7 @@
 }
 
 .animated.flip {
-  -webkit-backface-visibility: visible;
+  -webControl Services-backface-visibility: visible;
   backface-visibility: visible;
   animation-name: flip;
 }
@@ -892,7 +892,7 @@
 }
 
 .flipInX {
-  -webkit-backface-visibility: visible !important;
+  -webControl Services-backface-visibility: visible !important;
   backface-visibility: visible !important;
   animation-name: flipInX;
 }
@@ -924,7 +924,7 @@
 }
 
 .flipInY {
-  -webkit-backface-visibility: visible !important;
+  -webControl Services-backface-visibility: visible !important;
   backface-visibility: visible !important;
   animation-name: flipInY;
 }
@@ -947,7 +947,7 @@
 
 .flipOutX {
   animation-name: flipOutX;
-  -webkit-backface-visibility: visible !important;
+  -webControl Services-backface-visibility: visible !important;
   backface-visibility: visible !important;
 }
 
@@ -968,7 +968,7 @@
 }
 
 .flipOutY {
-  -webkit-backface-visibility: visible !important;
+  -webControl Services-backface-visibility: visible !important;
   backface-visibility: visible !important;
   animation-name: flipOutY;
 }

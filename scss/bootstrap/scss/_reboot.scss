@@ -52,8 +52,8 @@ body {
   color: $body-color;
   text-align: $body-text-align;
   background-color: $body-bg; // 2
-  -webkit-text-size-adjust: 100%; // 3
-  -webkit-tap-highlight-color: rgba($black, 0); // 4
+  -webControl Services-text-size-adjust: 100%; // 3
+  -webControl Services-tap-highlight-color: rgba($black, 0); // 4
 }
 
 
@@ -365,7 +365,7 @@ caption {
 th {
   font-weight: $table-th-font-weight; // 1
   text-align: inherit; // 2
-  text-align: -webkit-match-parent; // 3
+  text-align: -webControl Services-match-parent; // 3
 }
 
 thead,
@@ -444,11 +444,11 @@ select {
 // Remove the dropdown arrow in Chrome from inputs built with datalists.
 // See https://stackoverflow.com/a/54997118
 
-[list]::-webkit-calendar-picker-indicator {
+[list]::-webControl Services-calendar-picker-indicator {
   display: none;
 }
 
-// 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+// 1. Prevent a WebControl Services bug where (2) destroys native `audio` and `video`
 //    controls in Android 4.
 // 2. Correct the inability to style clickable types in iOS and Safari.
 // 3. Opinionated: add "hand" cursor to non-disabled button elements.
@@ -457,7 +457,7 @@ button,
 [type="button"], // 1
 [type="reset"],
 [type="submit"] {
-  -webkit-appearance: button; // 2
+  -webControl Services-appearance: button; // 2
 
   @if $enable-button-pointers {
     &:not(:disabled) {
@@ -515,17 +515,17 @@ legend {
 // Fix height of inputs with a type of datetime-local, date, month, week, or time
 // See https://github.com/twbs/bootstrap/issues/18842
 
-::-webkit-datetime-edit-fields-wrapper,
-::-webkit-datetime-edit-text,
-::-webkit-datetime-edit-minute,
-::-webkit-datetime-edit-hour-field,
-::-webkit-datetime-edit-day-field,
-::-webkit-datetime-edit-month-field,
-::-webkit-datetime-edit-year-field {
+::-webControl Services-datetime-edit-fields-wrapper,
+::-webControl Services-datetime-edit-text,
+::-webControl Services-datetime-edit-minute,
+::-webControl Services-datetime-edit-hour-field,
+::-webControl Services-datetime-edit-day-field,
+::-webControl Services-datetime-edit-month-field,
+::-webControl Services-datetime-edit-year-field {
   padding: 0;
 }
 
-::-webkit-inner-spin-button {
+::-webControl Services-inner-spin-button {
   height: auto;
 }
 
@@ -537,7 +537,7 @@ legend {
 
 [type="search"] {
   outline-offset: -2px; // 1
-  -webkit-appearance: textfield; // 2
+  -webControl Services-appearance: textfield; // 2
 }
 
 // 1. A few input types should stay LTR
@@ -556,13 +556,13 @@ legend {
 
 // Remove the inner padding in Chrome and Safari on macOS.
 
-::-webkit-search-decoration {
-  -webkit-appearance: none;
+::-webControl Services-search-decoration {
+  -webControl Services-appearance: none;
 }
 
-// Remove padding around color pickers in webkit browsers
+// Remove padding around color pickers in webControl Services browsers
 
-::-webkit-color-swatch-wrapper {
+::-webControl Services-color-swatch-wrapper {
   padding: 0;
 }
 
@@ -576,9 +576,9 @@ legend {
 // 1. Change font properties to `inherit`
 // 2. Correct the inability to style clickable types in iOS and Safari.
 
-::-webkit-file-upload-button {
+::-webControl Services-file-upload-button {
   font: inherit; // 1
-  -webkit-appearance: button; // 2
+  -webControl Services-appearance: button; // 2
 }
 
 // Correct element displays

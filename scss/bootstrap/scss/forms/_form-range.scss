@@ -16,7 +16,7 @@
 
     // Pseudo-elements must be split across multiple rulesets to have an effect.
     // No box-shadow() mixin for focus accessibility.
-    &::-webkit-slider-thumb { box-shadow: $form-range-thumb-focus-box-shadow; }
+    &::-webControl Services-slider-thumb { box-shadow: $form-range-thumb-focus-box-shadow; }
     &::-moz-range-thumb     { box-shadow: $form-range-thumb-focus-box-shadow; }
   }
 
@@ -24,10 +24,10 @@
     border: 0;
   }
 
-  &::-webkit-slider-thumb {
+  &::-webControl Services-slider-thumb {
     width: $form-range-thumb-width;
     height: $form-range-thumb-height;
-    margin-top: ($form-range-track-height - $form-range-thumb-height) / 2; // Webkit specific
+    margin-top: ($form-range-track-height - $form-range-thumb-height) / 2; // WebControl Services specific
     @include gradient-bg($form-range-thumb-bg);
     border: $form-range-thumb-border;
     @include border-radius($form-range-thumb-border-radius);
@@ -40,7 +40,7 @@
     }
   }
 
-  &::-webkit-slider-runnable-track {
+  &::-webControl Services-slider-runnable-track {
     width: $form-range-track-width;
     height: $form-range-track-height;
     color: transparent; // Why?
@@ -80,7 +80,7 @@
   &:disabled {
     pointer-events: none;
 
-    &::-webkit-slider-thumb {
+    &::-webControl Services-slider-thumb {
       background-color: $form-range-thumb-disabled-bg;
     }
 
